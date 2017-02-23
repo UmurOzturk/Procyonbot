@@ -3,7 +3,7 @@ var Discordie = require('discordie');
 const Events = Discordie.Events;
 const client = new Discordie();
 
-client.connect({ token: 'Mjg0MzAxODM5NDMwODQ0NDE2.C5BoQQ.mQY2rWoVT9w3rW60uD6AGM-d58w' });
+client.connect({ token: 'Mjg0MzEyMjEwMTMyNDM0OTQ0.C5ByBA.Da6i6VJYtWrSeCbroMcokwBhtv8' });
 
 client.Dispatcher.on(Events.GATEWAY_READY, e => {
     console.log('Connected as: ' + client.User.Username);
