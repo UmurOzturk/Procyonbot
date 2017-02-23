@@ -1,0 +1,8 @@
+{
+"name": "Procyon Guild Bot",
+"version": "p.0.1",
+"description":"",
+"scripts": { "test": "procyonbot.js"},
+"author": "Luftmensch",
+"License":"",
+"dependencies": {"discordie": ""},
